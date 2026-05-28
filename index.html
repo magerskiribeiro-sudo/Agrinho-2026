@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte • Futuro Sustentável | Agrinho 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- NAVBAR -->
+    <nav class="bg-emerald-800 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-6 py-5">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <div class="w-11 h-11 bg-white rounded-2xl flex items-center justify-center text-4xl shadow-inner">
+                        🌱
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold">Agro Forte</h1>
+                        <p class="text-xs text-emerald-200 -mt-1">Futuro Sustentável</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center gap-8 text-lg" id="menu">
+                    <a href="#sobre" class="hover:text-emerald-300 transition">Sobre</a>
+                    <a href="#dia-a-dia" class="hover:text-emerald-300 transition">Dia a Dia</a>
+                    <a href="#agro-br" class="hover:text-emerald-300 transition">Agro Brasileiro</a>
+                    <a href="#sustentavel" class="hover:text-emerald-300 transition">Sustentabilidade</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden text-2xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero-bg min-h-screen flex items-center relative">
+        <div class="max-w-7xl mx-auto px-6 pt-20">
+            <div class="max-w-2xl">
+                <h1 class="text-6xl md:text-7xl font-bold leading-tight text-white mb-6">
+                    AGRO FORTE,<br>
+                    <span class="text-emerald-300">FUTURO SUSTENTÁVEL</span>
+                </h1>
+                <p class="text-2xl text-emerald-100 mb-10">
+                    Equilíbrio entre produção e preservação do meio ambiente no Brasil
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#dia-a-dia" class="bg-emerald-500 hover:bg-emerald-600 px-8 py-4 rounded-2xl text-lg font-semibold transition">
+                        Conhecer o Dia a Dia →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 left-1/2 hidden md:flex flex-col items-center text-white/80">
+            <p class="text-sm tracking-widest">ROLE PARA BAIXO</p>
+            <i class="fa-solid fa-chevron-down animate-bounce text-3xl mt-2"></i>
+        </div>
+    </header>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-5xl font-bold mb-6">O Agro que alimenta o Brasil com responsabilidade</h2>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        O agronegócio brasileiro é referência mundial em produtividade e sustentabilidade. 
+                        Aqui mostramos como é possível produzir muito, preservando nossos recursos naturais.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-6 text-center">
+                    <div class="bg-emerald-50 p-8 rounded-3xl">
+                        <div class="text-5xl mb-3">🐄</div>
+                        <div class="font-semibold">Pecuária</div>
+                    </div>
+                    <div class="bg-emerald-50 p-8 rounded-3xl">
+                        <div class="text-5xl mb-3">🌾</div>
+                        <div class="font-semibold">Grãos</div>
+                    </div>
+                    <div class="bg-emerald-50 p-8 rounded-3xl">
+                        <div class="text-5xl mb-3">☕</div>
+                        <div class="font-semibold">Café</div>
+                    </div>
+                    <div class="bg-emerald-50 p-8 rounded-3xl">
+                        <div class="text-5xl mb-3">🍊</div>
+                        <div class="font-semibold">Fruticultura</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIA A DIA -->
+    <section id="dia-a-dia" class="py-20 bg-emerald-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-4">O Agro no Dia a Dia</h2>
+            <p class="text-center text-gray-600 mb-12">A rotina de quem trabalha no campo brasileiro</p>
+
+            <div class="grid md:grid-cols-3 gap-8" id="cards">
+                <!-- Cards serão preenchidos via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-emerald-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-2xl font-bold mb-2">Agro Forte • Futuro Sustentável</p>
+            <p class="text-emerald-300">Projeto desenvolvido para o Agrinho 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
