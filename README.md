@@ -1,1 +1,2 @@
 # Agrinho-2026
+A página Agro Forte • Futuro Sustentável é um site educativo e visualmente bonito criado para o Agrinho 2026. Com tons variados de verde, ela destaca o equilíbrio entre a produção agrícola e a preservação do meio ambiente no Brasil. A página apresenta o dia a dia do agronegócio, com elementos representativos da nossa agricultura como plantações, gado e tecnologia no campo, tudo de forma moderna, responsiva e fácil de navegar em celular, tablet e computador.
